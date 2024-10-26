@@ -1,6 +1,9 @@
 Build a simple classifier to predict whether a machine will fail
 based on temperature and pressure readings.
+
 This code defines a function classify_failure that checks if the temperature or pressure surpasses critical thresholds and then tests this function with sample values
+
+
 def classify_failure(temp, pressure):
     # Failure happens if temp > 75 or pressure > 120
     if temp > 75 or pressure > 120:
